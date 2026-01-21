@@ -11,5 +11,8 @@ elif operacja == '*':
 
 elif operacja =="/":
     print(f"{a} / {b} = {a / b}")
+    if b==0:
+    print(*Blad, dzielenie przez zero*)
+    break
 elif operacja =="**":
     print(f"{a} ** {b} = {a ** b}")
