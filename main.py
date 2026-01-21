@@ -1,4 +1,4 @@
-print("Aby korzystać z kalkulatora należy najpierw podać dwie liczby, A oraz B, a następnie znak operacji, jaką chcemy wykonać (+, -, *, /")
+print("Aby korzystać z kalkulatora należy najpierw podać dwie liczby, A oraz B, a następnie znak operacji, jaką chcemy wykonać (+, -, *, /, **")
 a = float(input("Podaj A: "))
 b = float(input("Podaj B: "))
 operacja = input("Podaj operacje: ")
@@ -11,3 +11,5 @@ elif operacja == '*':
 
 elif operacja =="/":
     print(f"{a} / {b} = {a / b}")
+elif operacja =="**":
+    print(f"{a} ** {b} = {a ** b}")
