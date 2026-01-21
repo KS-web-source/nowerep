@@ -10,8 +10,8 @@ elif operacja == '*':
     print ( f'{a} * {b} = {a*b}')
 
 elif operacja =="/":
-    if b==0:
-        print("Bład, dzielnie przez zero")
+    if b == 0:
+        print("Błąd, dzielenie przez zero")
         break
     print(f"{a} / {b} = {a / b}")
     if b==0:
